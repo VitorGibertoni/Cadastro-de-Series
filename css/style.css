@@ -1,0 +1,172 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+h1 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+}
+
+h2 {
+    color: #2c3e50;
+    border-left: 4px solid #3498db;
+    padding-left: 10px;
+    margin-top: 30px;
+}
+
+.mensagem {
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}
+
+.formulario, .pesquisa, .listagem {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.campo {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.botoes {
+    margin-top: 20px;
+}
+
+button, .botao {
+    padding: 10px 15px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+button:hover, .botao:hover {
+    background-color: #2980b9;
+}
+
+.campo-pesquisa {
+    display: flex;
+}
+
+.campo-pesquisa input {
+    flex: 1;
+    margin-right: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+table th {
+    background-color: #3498db;
+    color: white;
+}
+
+table tr:hover {
+    background-color: #f5f5f5;
+}
+
+.botao-editar, .botao-excluir {
+    padding: 5px 10px;
+    border-radius: 3px;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    margin-right: 5px;
+}
+
+.botao-editar {
+    background-color: #f39c12;
+}
+
+.botao-excluir {
+    background-color: #e74c3c;
+}
+
+.botao-editar:hover {
+    background-color: #d68910;
+}
+
+.botao-excluir:hover {
+    background-color: #c0392b;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+        padding: 10px;
+    }
+    
+    table {
+        display: block;
+        overflow-x: auto;
+    }
+    
+    .campo-pesquisa {
+        flex-direction: column;
+    }
+    
+    .campo-pesquisa input {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
