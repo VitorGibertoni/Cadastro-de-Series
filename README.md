@@ -24,6 +24,7 @@ cadastro-series/
 
 ## Requisitos
 
+- XAAMP v.3.3.0 ou superior
 - PHP 7.4 ou superior
 - MySQL 5.7 ou superior
 - Node.js 14 ou superior
