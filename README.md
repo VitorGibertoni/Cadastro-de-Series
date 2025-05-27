@@ -1,5 +1,12 @@
 # Documentação do Projeto Cadastro de Séries
 
+#Projeto Realizado por
+
+-
+-
+-
+-
+
 ## Introdução
 
 Este documento contém instruções detalhadas sobre como configurar e utilizar o sistema de Cadastro de Séries, desenvolvido com PHP, MySQL e Node.js. O sistema implementa as quatro operações básicas de um CRUD (Create, Read, Update, Delete) para gerenciar um catálogo de séries.
