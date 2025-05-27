@@ -29,6 +29,30 @@ cadastro-series/
 - Node.js 14 ou superior
 - npm (gerenciador de pacotes do Node.js)
 
+=========================================================================================================================================================================
+## Como exercutar o projeto utilizando somente o XAAMP:
+
+Baixe a pasta zip do projeto [clicando aqui](https://github.com/VitorGibertoni/Cadastro-de-Series/archive/refs/heads/master.zip), ou clonando o repositorio pelo terminal 
+
+```bash
+git clone https://github.com/VitorGibertoni/Cadastro-de-Series
+```
+
+1. Abra o XAMMP Control Panel.
+2. Coloque a pasta do projeto "Cadastro-de-series" dentro da pasta HTDOCS , geramente em ```C:\xampp\htdocs```
+3. Inicie (start) o Apache no XAAMP Control Panel
+4. Inicie (start) o MySQL e clique em Admin, deve-se abrir uma aba em ``` http://localhost/phpmyadmin/ ```
+5. Importe o arquivo database 
+- http://localhost/phpmyadmin/index.php?route=/server/import&lang=pt_BR
+- escolher arquivo
+- abra a pasta do projeto, procure pela pasta "sql", importe o arquivo "database", vá para baixo da tela e clique em "Importar"
+6. No navegador, cole a URL ``` http://localhost/Cadastro-de-Series/php/ ```
+
+=========================================================================================================================================================================
+
+
+
+  
 ## Configuração do Banco de Dados
 
 ### O que é SQL?
