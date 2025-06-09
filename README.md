@@ -1,6 +1,6 @@
 # Documentação do Projeto Cadastro de Séries
 
-#Projeto Realizado por
+# Projeto Realizado por
 
 - Aisha Ramiro
 - Bruna Scaramuzza
