@@ -2,10 +2,10 @@
 
 #Projeto Realizado por
 
--
--
--
--
+- Aisha Ramiro
+- Bruna Scaramuzza
+- Lucas Freitas
+- Vitor Gibertoni
 
 ## Introdução
 
@@ -59,30 +59,7 @@ git clone https://github.com/VitorGibertoni/Cadastro-de-Series
 ===========================================================================
 
 
-
-  
-## Configuração do Banco de Dados
-
-### O que é SQL?
-
-SQL (Structured Query Language) é uma linguagem padrão para trabalhar com bancos de dados relacionais. Ela permite criar, ler, atualizar e excluir dados em um banco de dados. No nosso projeto, utilizamos o MySQL, que é um sistema de gerenciamento de banco de dados que utiliza a linguagem SQL.
-
-### Importando o Banco de Dados
-
-1. Certifique-se de que o MySQL está instalado e em execução no seu sistema.
-2. Abra um terminal ou prompt de comando.
-3. Navegue até o diretório do projeto.
-4. Execute o seguinte comando para importar o banco de dados:
-
-```bash
-mysql -u root -p < sql/database.sql
-```
-
-5. Digite a senha do usuário root quando solicitado.
-
-Se você não quiser usar o usuário root, substitua "root" pelo nome do seu usuário MySQL.
-
-### Configurando a Conexão
+### Configurando a Conexão (se necessário)
 
 As configurações de conexão com o banco de dados estão no arquivo `php/conexao.php`. Se necessário, altere as seguintes linhas para corresponder às suas configurações:
 
@@ -92,29 +69,6 @@ $usuario = 'root';
 $senha = '';
 $banco = 'cadastro_series';
 ```
-
-## Iniciando a Aplicação
-
-### Instalando Dependências do Node.js
-
-1. Abra um terminal ou prompt de comando.
-2. Navegue até o diretório do projeto.
-3. Execute o seguinte comando para instalar as dependências:
-
-```bash
-npm install express
-```
-
-### Iniciando o Servidor
-
-1. No terminal, ainda no diretório do projeto, execute:
-
-```bash
-node server.js
-```
-
-2. Você verá uma mensagem indicando que o servidor está rodando, geralmente em `http://localhost:3000`.
-3. Abra seu navegador e acesse o endereço indicado.
 
 ## Utilizando o Sistema
 
@@ -246,11 +200,6 @@ php php/teste_crud.php
 - Verifique se as credenciais no arquivo `php/conexao.php` estão corretas.
 - Verifique se o banco de dados `cadastro_series` foi criado corretamente.
 
-### Erro ao Iniciar o Servidor Node.js
-
-- Verifique se o Node.js está instalado corretamente.
-- Verifique se todas as dependências foram instaladas com `npm install`.
-- Verifique se a porta 3000 não está sendo usada por outro aplicativo.
 
 ## Conclusão
 
