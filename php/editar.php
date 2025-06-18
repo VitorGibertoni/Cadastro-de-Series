@@ -37,7 +37,8 @@ $serie = $resultado->fetch_assoc();
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-    <h2>Editar Série</h2>
+    <div class="container">
+        <h2>Editar Série</h2>
 <form method="post">
 Título: <input type="text" name="titulo" value="<?= $serie['titulo'] ?>"><br>
 Gênero: <input type="text" name="genero" value="<?= $serie['genero'] ?>"><br>
@@ -49,6 +50,7 @@ Avaliação: <input type="text" name="avaliacao" value="<?= $serie['avaliacao'] 
 Status: <input type="text" name="status" value="<?= $serie['status'] ?>"><br>
 <button type="submit">Atualizar</button>
 </form>
+    </div>
     
 </body>
 </html>

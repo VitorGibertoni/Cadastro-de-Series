@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-    max-width: 1200px;
+    width: 65%;
     margin: 20px auto;
     padding: 20px;
     background-color: #fff;
@@ -74,9 +74,6 @@ textarea {
     resize: vertical;
 }
 
-.botoes {
-    margin-top: 20px;
-}
 
 button, .botao {
     padding: 10px 15px;
@@ -88,7 +85,7 @@ button, .botao {
     font-size: 16px;
     text-decoration: none;
     display: inline-block;
-    margin-right: 10px;
+    margin: 20px 10px 20px 0px;
 }
 
 button:hover, .botao:hover {
@@ -148,25 +145,4 @@ table tr:hover {
 
 .botao-excluir:hover {
     background-color: #c0392b;
-}
-
-@media (max-width: 768px) {
-    .container {
-        width: 95%;
-        padding: 10px;
-    }
-    
-    table {
-        display: block;
-        overflow-x: auto;
-    }
-    
-    .campo-pesquisa {
-        flex-direction: column;
-    }
-    
-    .campo-pesquisa input {
-        margin-right: 0;
-        margin-bottom: 10px;
-    }
 }

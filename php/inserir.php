@@ -28,7 +28,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-   <h2>Inserir Série</h2>
+  <div class="container">
+     <h2>Inserir Série</h2>
 <form method="post">
 Título: <input type="text" name="titulo"><br>
 Gênero: <input type="text" name="genero"><br>
@@ -40,6 +41,7 @@ Avaliação: <input type="text" name="avaliacao"><br>
 Status: <input type="text" name="status"><br>
 <button type="submit">Salvar</button>
 </form> 
+  </div>
 </body>
 </html>
 
